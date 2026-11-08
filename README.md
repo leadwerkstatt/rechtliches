@@ -57,5 +57,5 @@ Navigation auch lokal ohne Webserver funktioniert.
 
 ## Branding anpassen
 
-Alle Farben, Abstände und Radien stehen am Anfang von `assets/style.css` im Block `:root`
-(dunkler Modus im Block `@media (prefers-color-scheme: dark)` darunter).
+Alle Farben, Abstände und Radien stehen am Anfang von `assets/style.css` im Block `:root`.
+Die Seite ist bewusst nur hell (kein Dunkelmodus), damit sie auf allen Geräten gleich aussieht.

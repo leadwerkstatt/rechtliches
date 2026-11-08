@@ -7,7 +7,7 @@
   --schriftgroesse: 1.0625rem;
   --zeilenhoehe: 1.55;
 
-  /* Farben (hell) */
+  /* Farben (nur heller Modus, bewusst ohne Dunkelmodus) */
   --farbe-hintergrund: #ffffff;
   --farbe-hintergrund-sekundaer: #f5f5f7;
   --farbe-karte: #ffffff;
@@ -47,26 +47,6 @@
   --lesebreite: 720px;
   --kopf-hoehe: 4rem;
   --touch-ziel: 44px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --farbe-hintergrund: #000000;
-    --farbe-hintergrund-sekundaer: #1d1d1f;
-    --farbe-karte: #1d1d1f;
-    --farbe-text: #f5f5f7;
-    --farbe-text-sekundaer: #a1a1a6;
-    --farbe-akzent: #2997ff;
-    --farbe-linie: rgba(255, 255, 255, 0.16);
-    --farbe-kopf: rgba(0, 0, 0, 0.72);
-    --farbe-kopf-fallback: #000000;
-    --farbe-spur: rgba(118, 118, 128, 0.32);
-    --farbe-segment-aktiv: #636366;
-    --farbe-segment-aktiv-text: #ffffff;
-    --farbe-hover: rgba(255, 255, 255, 0.06);
-    --schatten-s: 0 1px 2px rgba(0, 0, 0, 0.5);
-    --schatten-m: none;
-  }
 }
 
 *,
