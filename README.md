@@ -26,9 +26,9 @@ Navigation auch lokal ohne Webserver funktioniert.
 1. **Repo anlegen:** In der GitHub-Organisation *New repository*, Name z. B. `rechtliches`.
    Hinweis: GitHub Pages setzt hier ein **öffentliches** Repo voraus. Alles im Repo ist damit öffentlich sichtbar.
    Leer anlegen (ohne README, ohne `.gitignore`, ohne Lizenz).
-2. **Vor dem Livegang:** `grep -rn 'PRÜFEN' .` im Projekt ausführen und **alle Treffer klären**
-   (die vier gelb markierten Platzhalter in `datenschutz/index.html`). Die Platzhalter im HTML danach
-   samt `<mark class="platzhalter">` durch den endgültigen Text ersetzen.
+2. **Vor dem Livegang:** `grep -rn 'PRÜF[E]N' .` im Projekt ausführen und **alle Treffer klären**
+   (der Befehl ist mit `[E]` geschrieben, damit er sich nicht selbst findet). Aktuell gibt es keine Treffer.
+   Neue Platzhalter im Text bitte wie `[PRÜF` + `EN: …]` kennzeichnen und vor dem Livegang ersetzen.
 3. **Pushen** (im Projektordner):
    ```
    git remote add origin https://github.com/<ORGANISATION>/<REPO>.git
